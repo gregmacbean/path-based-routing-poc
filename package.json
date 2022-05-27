@@ -4,6 +4,10 @@
   "bin": {
     "path-based-routing-poc": "bin/path-based-routing-poc.js"
   },
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
